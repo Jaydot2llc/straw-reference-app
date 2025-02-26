@@ -1,7 +1,7 @@
 # Straw SaaS Application with UI
 
 ## Overview
-This is a reference Spring Boot application for using Microsoft Identity to secure Restful API's.
+This is a reference Spring Boot application for using Microsoft Identity to secure Restful API's and test deployment to the Entra Application Gallery.
 
 ## Authentication
 A request is made to the Entra protected resource and the if a valid token is included in the request, the resources are granted.  If the request cannot be validated, then a request is made to the Entra ID service to authenticate the user.  A check is also made to make sure the user is authorized to gain access to the requested resource.  If the user is authenticated and authorized, the request is returned with the resource.
