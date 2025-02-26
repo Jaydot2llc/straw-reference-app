@@ -30,7 +30,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Run a one-line script
-        run: ./gradlew build
+        run: |
+          echo Starting build...
+          chmod 755 ./gradlew
+          ./gradlew build
 
   deploy:
     runs-on: ubuntu-latest
