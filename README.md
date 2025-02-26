@@ -74,20 +74,6 @@ Show the default domain of the container app environment. Note down this domain 
 az containerapp env show --name $env:ENVIRONMENT --resource-group $env:RESOURCE_GROUP --query properties.defaultDomain
 ```
 
-## Initialize Repository
-
-Add user as collaborator to new repository.
-
-```shell
-echo "# straw-reference-app" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:Jaydot2llc/straw-reference-app.git
-git push -u origin main
-```
-
 ## Reference
 - [Secure your REST API using Spring Cloud Azure](https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/secure-your-restful-api-using-spring-cloud-azure)
 - [Microsoft Authentication Library for Java](https://learn.microsoft.com/en-us/entra/msal/java/)

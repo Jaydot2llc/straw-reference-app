@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/" # Root directory or specific module path
+    schedule:
+      interval: "weekly"
