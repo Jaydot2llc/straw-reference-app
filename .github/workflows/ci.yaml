@@ -20,6 +20,7 @@ jobs:
       - name: Run Unit Tests
         run: |
           echo Starting tests...
+          chmod 755 ./gradlew
           ./gradlew test
 
   build:
