@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: straw-reference-app
+  cloud:
+    azure:
+      active-directory:
+        enabled: true
+        credential:
+          client-id: <your-application-ID-of-Api-SurveyService>
+        app-id-uri: <your-application-ID-URI-of-Api-SurveyService>
+
+# which routes to restrict to authenticated users only (see SecurityConfig.java):
+# enter String array (comma-separated) or just one route.
+# e.g. authenticated: /route1, /route2, /route3
+app:
+  protect:
+    authenticated: /token_details
