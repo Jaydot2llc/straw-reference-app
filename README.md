@@ -81,4 +81,5 @@ az containerapp env show --name $env:ENVIRONMENT --resource-group $env:RESOURCE_
 - [Secure Java Spring Boot apps using Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/developer/java/identity/enable-spring-boot-webapp-authentication-entra-id?tabs=aca)
 - [Spring Cloud Azure documentation](https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/)
 - [Deploy Java Spring Boot apps to Azure Container Apps](https://learn.microsoft.com/en-us/azure/developer/java/identity/deploy-spring-boot-to-azure-container-apps)
+- [Overview of the Microsoft Entra application gallery](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/overview-application-gallery)
 - [Dependabot options reference](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference)
